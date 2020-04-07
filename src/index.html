@@ -1,0 +1,25 @@
+<fieldset>
+  <legend>ISO</legend>
+  <label>Archivo ISO de Origen
+  <input id="iso" title="Archivo ISO de Origen" placeholder="Archivo ISO de Origen (*.iso)" style="width:99%">
+  </label>
+  <button onclick="api.getIso()" title="Archivo ISO de Origen">Abrir ISO</button>
+</fieldset>
+
+<fieldset>
+  <legend>Disco USB</legend>
+  <label>Pendrive USB de Destino
+  <input id="usb" title="Disco USB de Destino" placeholder="Disco USB de Destino (PenDrive)" style="width:99%">
+  </label>
+  <button onclick="api.getUsb()" title="Disco USB de Destino">Abrir USB</button>
+</fieldset>
+
+<fieldset>
+  <legend>Resultados</legend>
+  <label>Mensajes de salida
+  <textarea id="output" title="Mensajes de salida" placeholder="Mensajes de salida (Solo-Lectura)" rows=9 readonly ></textarea>
+  </label>
+</fieldset>
+<marquee scrollamount=1 loop=1 > Ballena Itcher - Desarrolado por Nim Argentina </marquee>
+<button title="Grabar Archivo ISO a Disco USB" style="width:99%" autofocus
+  onclick="api.runDD(document.querySelector('#iso').value.trim() + ',' + document.querySelector('#usb').value.trim())"><b> ISO --> USB </b></button>
