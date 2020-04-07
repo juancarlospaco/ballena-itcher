@@ -4,3 +4,17 @@
 - `42` Lines of code, `1` file, `0` Dependency, `300` Kilobytes, No Garbage Collector, Web Technologies UI, Dark Theme.
 
 ![](https://raw.githubusercontent.com/juancarlospaco/ballena-itcher/master/0.png)
+
+# Use
+
+```console
+# ./ballena_itcher
+```
+
+# Install
+
+- https://github.com/juancarlospaco/ballena-itcher/releases
+
+# Uninstall
+
+- Delete it.
