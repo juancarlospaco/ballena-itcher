@@ -18,3 +18,9 @@
 # Uninstall
 
 - Delete it.
+
+# Compile
+
+```console
+$ nim compile ballena_itcher.nim
+```
