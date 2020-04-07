@@ -24,3 +24,11 @@
 ```console
 $ nim compile ballena_itcher.nim
 ```
+
+# TODO
+
+- Translate GUI to English.
+
+# Requisites
+
+- `dd`
